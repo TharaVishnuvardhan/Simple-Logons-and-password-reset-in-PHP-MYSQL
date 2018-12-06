@@ -1,1 +1,8 @@
-Create Database 
+Create a database called reglog. 
+In the reglog database, add a table called users. 
+The users table will take the following four fields.
+
+id PRIMARY KEY AUTO_INCREMENT
+username  -  varchar(30)
+password  -  varchar(30)
+created_at DATETIME DEFAULT CURRENT_TIMESTAMP
